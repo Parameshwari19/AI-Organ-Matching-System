@@ -1,0 +1,11 @@
+staff_id,hospital_id,staff_role,specialization,experience_years,availability_status
+S0001,H0005,Transplant Coordinator,Transplant Coordination,1,Available
+S0002,H0004,Transplant Coordinator,Transplant Coordination,9,Available
+S0003,H0002,Pulmonologist,Pulmonology,11,Available
+S0004,H0001,Nephrologist,Nephrology,4,Available
+S0005,H0003,Hepatologist,Hepatology,9,Available
+S0006,H0004,Hepatologist,Hepatology,4,Available
+S0007,H0001,Hepatologist,Hepatology,10,Unavailable
+S0008,H0005,Pulmonologist,Pulmonology,12,Unavailable
+S0009,H0002,Cardiologist,Cardiology,3,Available
+S0010,H0002,Pulmonologist,Pulmonology,10,Available

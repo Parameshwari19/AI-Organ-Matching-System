@@ -1,0 +1,5 @@
+organ_type,blood_group_check,crossmatch_check,size_check,urgency_factor,waiting_time_factor,distance_factor,hospital_readiness_factor
+Kidney,True,True,False,True,True,True,True
+Liver,True,False,True,True,True,True,True
+Heart,True,True,True,True,False,True,True
+Lung,True,True,True,True,False,True,True

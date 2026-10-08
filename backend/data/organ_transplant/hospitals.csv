@@ -1,0 +1,6 @@
+hospital_id,hospital_name,city,state,latitude,longitude,hospital_type,authorization_status,transplant_center_status,icu_available,operating_theatre_available,transplant_team_available,readiness_status
+H0001,Choudhury Transplant Centre,Chennai,Tamil Nadu,13.0827,80.2707,Private,Authorized,Transplant Center,True,True,False,Partially_Ready
+H0002,Bakshi Transplant Centre,Bengaluru,Karnataka,12.9716,77.5946,Government,Authorized,Transplant Center,True,True,True,Ready
+H0003,Maharaj Transplant Centre,Hyderabad,Telangana,17.385,78.4867,Government,Authorized,Transplant Center,True,False,True,Partially_Ready
+H0004,Konda Transplant Centre,Mumbai,Maharashtra,19.076,72.8777,Government,Authorized,Transplant Center,True,True,True,Ready
+H0005,Kapoor Transplant Centre,Delhi,Delhi,28.6139,77.209,Private,Authorized,Transplant Center,True,False,True,Partially_Ready
