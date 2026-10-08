@@ -1,12 +1,26 @@
+import os
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-DATABASE_URL = "sqlite:///./organ_match.db"
+
+BASE_DIR = os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))
+)
+
+DATABASE_PATH = os.path.join(
+    BASE_DIR,
+    "organ_match.db"
+)
+
+DATABASE_URL = f"sqlite:///{DATABASE_PATH}"
+
 
 engine = create_engine(
     DATABASE_URL,
     connect_args={"check_same_thread": False}
 )
+
 
 SessionLocal = sessionmaker(
     autocommit=False,
@@ -14,12 +28,15 @@ SessionLocal = sessionmaker(
     bind=engine
 )
 
+
 Base = declarative_base()
 
 
 def get_db():
     db = SessionLocal()
+
     try:
         yield db
+
     finally:
         db.close()
